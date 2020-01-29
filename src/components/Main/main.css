@@ -1,0 +1,20 @@
+.Caroussel {
+  background: #000;
+}
+
+.Presentation {
+  background: white;
+  color: black;
+  padding: 4em;
+}
+
+.Collection {
+  background-color: black;
+  color: white;
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-around;
+}
+.pictures {
+  max-width: 30vw;
+}

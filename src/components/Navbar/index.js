@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <li>
-        Acceuil
+        Accueil
       </li>
       <li>
         portfolio

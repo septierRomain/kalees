@@ -1,10 +1,16 @@
 import React from 'react';
 import './main.css';
 
+import Caroussel from './Caroussel';
+import Presentation from './Presentation';
+import Collection from './Collection';
+
 function Main() {
   return (
     <div className="Main">
-      <h2>Je suis le Main</h2>
+      <Caroussel />
+      <Presentation />
+      <Collection />
     </div>
   );
 }
