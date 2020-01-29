@@ -1,16 +1,18 @@
+@import '../../styles/_vars.scss';
+
 .Caroussel {
-  background: #000;
+  background: $alt-color-bg;
 }
 
 .Presentation {
-  background: white;
+  background: $main-color-bg;
   color: black;
   padding: 4em;
 }
 
 .Collection {
-  background-color: black;
-  color: white;
+  background-color: $alt-color-bg;
+  color: $main-color-bg;
   padding: 2em 0;
   display: flex;
   justify-content: space-around;

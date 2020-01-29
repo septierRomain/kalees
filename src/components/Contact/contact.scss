@@ -1,5 +1,14 @@
+@import '../../styles/_vars.scss';
+
 .Contact-Main {
-  width: 100%;
-  height: 80vh;
-  background-color: aquamarine;
+  height: 100%;
+  background-color: $main-color-bg;
+  margin-top: 9vh;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#mail {
+  text-decoration: underline;
 }
