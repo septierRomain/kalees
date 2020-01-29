@@ -5,10 +5,11 @@
   display: flex;
   width: 100vw;
   padding: 1em 0;
+  margin: auto;
   justify-content: center;
-  font-size: large;
+  font-size: 2em;
   font-weight: 600;
 }
 .Navbar>li {
-  padding-right: 2rem;
+  padding: 0 1rem;
 }
