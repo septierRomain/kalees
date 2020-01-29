@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
 import Navbar from '../Navbar';
@@ -8,9 +9,11 @@ import Main from '../Main';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Main />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Main />
+        <Footer />
+      </Router>
     </div>
   );
 }

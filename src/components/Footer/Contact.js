@@ -1,6 +1,8 @@
 import React from 'react';
-import './footer.css';
+
 import { Icon } from 'semantic-ui-react';
+
+import './footer.css';
 
 function Contact() {
   return (
