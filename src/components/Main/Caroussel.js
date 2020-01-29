@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'semantic-ui-react';
 
-import './main.css';
+import './main.scss';
 import Liberty from '../../assets/liberty.jpg';
 
 function Caroussel() {

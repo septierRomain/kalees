@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
-import './main.css';
+import './main.scss';
 
 // Image
 import Jessie from '../../assets/Jessie.jpg';

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Divider } from 'semantic-ui-react';
 
-import './footer.css';
 import Reseaux from './Reseaux'
 import Contact from './Contact'
 

@@ -1,6 +1,8 @@
+@import '../../styles/_vars.scss';
+
 .Footer {
-  background: #000;
-  color: #C8B29A;
+  background: $navbar-bg-color;
+  color: $navbar-title-color;
   list-style: none;
   display: flex;
   width: 100vw;
@@ -10,7 +12,7 @@
   font-weight: 600;
 }
 li {
-  color: white;
+  color: $navbar-font-color;
   padding: 0.3em 0;
 }
 .divider {
@@ -18,5 +20,5 @@ li {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: $navbar-font-color;
 }
