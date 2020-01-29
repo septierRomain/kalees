@@ -1,4 +1,4 @@
-.Navbar {
+.Footer {
   background: #000;
   color: white;
   list-style: none;
@@ -8,7 +8,4 @@
   justify-content: center;
   font-size: large;
   font-weight: 600;
-}
-.Navbar>li {
-  padding-right: 2rem;
 }
