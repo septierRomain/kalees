@@ -7,7 +7,7 @@ import Liberty from '../../assets/liberty.jpg';
 function Caroussel() {
   return (
     <div className="Caroussel">
-      <Image src={Liberty} alt="Statue de la liberté" fluid/>
+      <Image src={Liberty} alt="Statue de la liberté" id="Liberty" fluid/>
     </div>
   );
 }

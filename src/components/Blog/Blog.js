@@ -5,7 +5,8 @@ import './blog.scss';
 function BlogMain() {
   return (
     <div className="Blog-Main">
-        <h1>Contact</h1>
+        <h1>Mon actualité</h1>
+        <p>A venir ...</p>
     </div>
   );
 }

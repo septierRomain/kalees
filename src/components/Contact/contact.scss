@@ -1,14 +1,11 @@
 @import '../../styles/_vars.scss';
-
 .Contact-Main {
-  height: 100%;
-  background-color: $main-color-bg;
-  margin-top: 9vh;
-  padding: 2em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  font-size: 4vw;
 }
 #mail {
   text-decoration: underline;
 }
+.Contact-Main>a {
+  color: black;
+}
+

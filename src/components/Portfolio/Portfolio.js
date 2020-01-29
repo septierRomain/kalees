@@ -3,8 +3,9 @@ import './portfolio.scss';
 
 function PortfolioMain() {
   return (
-    <div className="Portfolio-main">
-      <h1>Je suis le portfolio</h1>
+    <div className="Portfolio-Main">
+      <h1>Mon portfolio</h1>
+      <p>A venir ...</p>
     </div>
   );
 }

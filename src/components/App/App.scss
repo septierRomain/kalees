@@ -7,6 +7,35 @@
   letter-spacing: 0.1em;
   overflow-x: hidden;
   font-size: 1.5em;
+  list-style: none;
+}
+
+.Portfolio, .Blog, .Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.Portfolio-Main, .Contact-Main, .Blog-Main {
+  height: 100%;
+  background-color: $main-color-bg;
+  margin: Auto;
+  padding: 2em 4em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Portfolio-Main>h1, .Contact-Main>h1, .Blog-Main>h1 {
+font-size: 5vh;
+}
+
+.Home {
+  overflow: hidden;
 }
 
 body {
