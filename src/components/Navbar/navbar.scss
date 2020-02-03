@@ -3,17 +3,13 @@
 .Navbar {
   background: $navbar-bg-color;
   color: $navbar-font-color;
-  height: 5vh;
   list-style: none;
   display: flex;
-  width: 100vw;
+  width: 100%;
   padding: 1em 0;
-  margin: auto;
   justify-content: center;
   font-size: 4vw;
   font-weight: 600;
-  // position: fixed;
-  // top: 0;
 }
 .Navbar>li {
   padding: 0 1rem;

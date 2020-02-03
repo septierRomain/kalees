@@ -3,13 +3,12 @@
 .Footer {
   background: $navbar-bg-color;
   color: $navbar-title-color;
-  height: 13vh;
   display: flex;
-  width: 100vw;
-  padding: 1em 0;
+  width: 100%;
   justify-content: space-evenly;
   font-size: 1.5vw;
   font-weight: 600;
+  padding-bottom: 1em;
 }
 li {
   color: $navbar-font-color;
