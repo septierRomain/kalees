@@ -1,19 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import './App.scss';
 
-import Navbar from '../Navbar';
-import Footer from '../Footer';
-import Main from '../Main';
+import Home from '../Home';
+import Portfolio from '../Portfolio';
+import Contact from '../Contact';
+import Blog from '../Blog';
+// import NotFound from '../404';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <Main />
-        <Footer />
-      </Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/blog" component={Blog} />
+
+        {/* <Route component={NotFound} /> */}
+      </Switch>
     </div>
   );
 }

@@ -1,20 +1,21 @@
 import React from 'react';
-import './navbar.css';
+import { NavLink } from 'react-router-dom';
+import './navbar.scss';
 
 function Navbar() {
   return (
     <div className="Navbar">
       <li>
-        Accueil
+        <NavLink to="/">Accueil</NavLink>
       </li>
       <li>
-        portfolio
+        <NavLink to="/portfolio">Portfolio</NavLink>
       </li>
       <li>
-        Blog
+        <NavLink to="/blog">Blog</NavLink>
       </li>
       <li>
-        Contact
+        <NavLink to="/contact">Contact</NavLink>
       </li>
     </div>
   );

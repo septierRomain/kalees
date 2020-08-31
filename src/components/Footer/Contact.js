@@ -1,15 +1,16 @@
 import React from 'react';
 
-import { Icon } from 'semantic-ui-react';
-
-import './footer.css';
+import './footer.scss';
 
 function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact-Footer">
       <h1>Contact</h1>
       <li>
-        <Icon name="mail"/>Mail
+        Mail
+      </li>
+      <li>
+        lartevolution@yahoo.fr
       </li>
     </div>
   );

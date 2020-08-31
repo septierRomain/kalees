@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import '../../styles/_vars.scss';
+
+.App {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.1em;
+  overflow-x: hidden;
+  font-size: 1.5em;
+  list-style: none;
+  width: 100Vw;
+  height: 100vh;
+}
+
+.Portfolio, .Blog, .Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.Portfolio-Main, .Contact-Main, .Blog-Main {
+  background-color: $main-color-bg;
+  padding: 1em 2em;
+}
+
+.Portfolio-Main>h1, .Contact-Main>h1, .Blog-Main>h1 {
+font-size: 5vh;
+}
+
+.Home {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}

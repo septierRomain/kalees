@@ -6,10 +6,21 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.1.2",
+<<<<<<< HEAD
     "cross-env": "^7.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+=======
+    "cross-env": "^7.0.0",
+    "css-loader": "^3.4.2",
+    "node-sass": "^4.13.1",
+    "normalize-css": "^2.3.1",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+>>>>>>> 58d4e57e028b156437843024f8d7ca3b88647592
     "react-fontawesome": "^1.7.1",
+    "react-materialize": "^3.5.9",
     "react-parallax": "^3.0.3",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.2.0",
@@ -18,7 +29,7 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
-    "start": "cross-env HTTPS=true react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

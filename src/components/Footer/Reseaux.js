@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from 'semantic-ui-react';
 
-import './footer.css';
+import './footer.scss';
 
 function Reseaux() {
   return (
