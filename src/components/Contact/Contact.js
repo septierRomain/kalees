@@ -13,7 +13,7 @@ function ContactMain() {
       <p>
         Alors que vous soyez une personne qui s’intéresse au graffiti, un journaliste, un média, un artiste, une marque, un organisateur d’événements, une association, un établissement culturel … 
       </p>
-      <h2 id="mail">Mon mail</h2>
+      <h3 id="mail">Mon mail</h3>
       <a href="mailto:lartevolution@yahoo.fr">lartevolution@yahoo.fr</a>
     </div>
   );

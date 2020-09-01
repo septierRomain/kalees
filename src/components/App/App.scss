@@ -10,6 +10,8 @@
   list-style: none;
   width: 100Vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .Portfolio, .Blog, .Contact {

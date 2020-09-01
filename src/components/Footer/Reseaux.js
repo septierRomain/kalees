@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
 
 import './footer.scss';
 
@@ -9,11 +8,13 @@ function Reseaux() {
       <h1>Reseaux sociaux</h1>
       <li>
           <a href="http://www.instagram.com/kaleesnok/?hl=fr" target="blank">
-            <Icon name="instagram"/> Instagram
+            Instagram
           </a>
       </li>
       <li>
-        <Icon name="facebook square" />Facebook
+        <a href="#" targer="blank">
+          Facebook
+        </a>
       </li>
     </div>
   );

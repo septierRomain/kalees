@@ -1,11 +1,16 @@
 @import '../../styles/_vars.scss';
 .Contact-Main {
-  font-size: 4vw;
+  font-size: 2vh;
+}
+.Contact-Main h3 {
+  padding-top: 3em;
 }
 #mail {
-  text-decoration: underline;
+  transition-duration: 800ms;
 }
 .Contact-Main>a {
   color: black;
 }
-
+#mail:hover {
+  text-decoration: underline;
+}

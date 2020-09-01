@@ -6,11 +6,14 @@ import Home from '../Home';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Blog from '../Blog';
+import Navbar from '../Navbar';
+import Footer from '../Footer';
 // import NotFound from '../404';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
@@ -19,6 +22,7 @@ function App() {
 
         {/* <Route component={NotFound} /> */}
       </Switch>
+      {/* <Footer /> */}
     </div>
   );
 }
