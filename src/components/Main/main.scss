@@ -21,6 +21,10 @@
 }
 .pictures {
   max-width: 30vw;
+  transition-duration: 800ms;
+}
+.pictures:hover {
+  transform: scale(1.1);
 }
 #Liberty {
   width: 100%;
