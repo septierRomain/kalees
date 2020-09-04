@@ -3,9 +3,9 @@ import { Card, Image } from 'semantic-ui-react';
 import './main.scss';
 
 // Image
-import Jessie from '../../assets/Jessie.jpg';
+import Jessie from '../../assets/Jessie-low.jpg';
 import Buffalo from '../../assets/buffalo-low.jpg';
-import Portman from '../../assets/portman.jpg';
+import Portman from '../../assets/portman-low.jpg';
 
 function Collection() {
   return (
