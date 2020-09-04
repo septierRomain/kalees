@@ -4,7 +4,7 @@ import './main.scss';
 
 // Image
 import Jessie from '../../assets/Jessie.jpg';
-import Buffalo from '../../assets/buffalo.jpg';
+import Buffalo from '../../assets/buffalo-low.jpg';
 import Portman from '../../assets/portman.jpg';
 
 function Collection() {

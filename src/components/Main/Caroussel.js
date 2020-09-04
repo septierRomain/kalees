@@ -2,7 +2,7 @@ import React from 'react';
 import { Image } from 'semantic-ui-react';
 
 import './main.scss';
-import Liberty from '../../assets/liberty.jpg';
+import Liberty from '../../assets/liberty-low.jpg';
 
 function Caroussel() {
   return (
